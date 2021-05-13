@@ -22,13 +22,14 @@ The directory structure should look like this:
    - quickbms
      - src
        - <...the source files for quickbms...>
-   - wavescan.bms
+     - wavescan.bms
    - revorb-nix
    - ww2ogg
 ```
 
 Alternatively, you can download the static build from the same site, put the `quickbms` binary into
-./quickbms, and then run `./build.sh no_quickbms`. In this case, `./quickbms/src` need not exist.
+`./quickbms`, and then run `./build.sh no_quickbms` to build the rest of the tools. In this case,
+`./quickbms/src` need not exist.
 
 ## Usage
 After building all the necessary tools, run the script `./unpack_to_ogg.sh` to unpack your files.
